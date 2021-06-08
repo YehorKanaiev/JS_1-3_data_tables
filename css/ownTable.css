@@ -1,0 +1,41 @@
+
+.ownTable__table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ownTable__thead {}
+
+.ownTable__th {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #555555;
+    background-color: #999999;
+}
+
+.ownTable__th:hover {
+    background-color: #777777;
+}
+
+.ownTable__tbody {}
+
+.ownTable__tbody .ownTable__tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+.ownTable__tbody .ownTable__tr:nth-child(odd) {
+    background-color: #ccccbb;
+}
+
+.ownTable__tbody .ownTable__tr:hover {
+    background-color: #888888;
+}
+
+.ownTable__tr {}
+
+.ownTable__td {
+    font-size: 16px;
+    padding: 5px 7px;
+    border: 1px solid #555555;
+}
